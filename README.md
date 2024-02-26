@@ -13,19 +13,19 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
  ## Running the Emulator :
-```1.Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
-2.Run emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color
-3.```write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION, DIVISION operations```
-4.Compile the program and check for the errors
-5.Run (once there is no syntax error)
-6.Click OK to see/view the output of your program on the Emulator screen.
-7.After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
+1. Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
+2. Run emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color
+3. ```write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION, DIVISION operations```
+4. Compile the program and check for the errors
+5. Run (once there is no syntax error)
+6. Click OK to see/view the output of your program on the Emulator screen.
+7. After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
 8.	Click on emulate to start emulation 
 ![image](https://user-images.githubusercontent.com/36288975/189273273-9bb36ec1-e2e8-4892-8d35-37707332bfdc.png)
 9.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
 ![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
-```
+
 ## Programs for arithmetic  operations
 ## Addition  of 8 bit ALP 
 ```
@@ -77,6 +77,7 @@ hlt
 
 
 ## Programs for arithmetic  operations
+### AND OPERATIONS:
 ```
 name"AND"
 mov BX,3529
@@ -88,7 +89,7 @@ RET
 ![Screenshot 2024-02-26 142914](https://github.com/Rajeshanbu/EXPERIMENT--01-ALP-FOR-8086/assets/118924713/99d70241-3dd5-4afc-b96a-9128ec12c042)
 
 
-## OR alp
+## OR OPERATION:
 ```
 name"OR"
 mov ax,0700h
