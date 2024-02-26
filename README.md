@@ -1,7 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
+```
 Name :  RAJESH A
 Roll no : 212222100042
 Date of experiment : 26/02/2003
+````
 ## Aim:
 To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 
