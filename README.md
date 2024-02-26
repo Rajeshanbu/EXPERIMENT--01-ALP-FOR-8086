@@ -83,21 +83,74 @@ ADD al
 hlt
 ```
 ## Output  
- ![Screenshot 2024-02-26 140759](https://github.com/Rajeshanbu/EXPERIMENT--01-ALP-FOR-8086/assets/118924713/e771e045-1dd2-44c1-8c66-951fa472e92d)
+ ![Screenshot 2024-02-26 140759](https://github.com/Rajeshanbu/EXPERIMENT--01-ALP-FOR-8086/assets/118924713/8eb8bfa2-ea90-4863-9dfe-b4314245a4de)
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ ```
+name "SUBTRACTION"
+mov al,45h
+mov bl,06h
+SUB al
+hlt
+```
 ## Output  
+
+![Screenshot 2024-02-26 140948](https://github.com/Rajeshanbu/EXPERIMENT--01-ALP-FOR-8086/assets/118924713/59eaba51-3c29-45c4-a84b-b042619d5d0d)
+
 ## Multiplication alp 
+```
+name "MULTIPLICATION"
+mov al,45h
+mov bl,06h
+MUL al
+hlt
+```
  ## Output  
+
+![Screenshot 2024-02-26 141410](https://github.com/Rajeshanbu/EXPERIMENT--01-ALP-FOR-8086/assets/118924713/abec38da-7db6-4fef-a064-4aac628f5dcc)
 
 
 ## Division alp 
+```
+name "DIVISION"
+mov al,45h
+mov bl,06h
+DIV al
+hlt
+```
+## Output
 
-## Output  
+![Screenshot 2024-02-26 143018](https://github.com/Rajeshanbu/EXPERIMENT--01-ALP-FOR-8086/assets/118924713/70ba383d-8351-4e7d-bed5-4a021c98b13e)
+
+
+## Programs for arithmetic  operations
+```
+name"AND"
+mov BX,3529
+mov CX,ax
+mov BX,CX
+RET
+```
+## OUTPUT:
+![Screenshot 2024-02-26 142914](https://github.com/Rajeshanbu/EXPERIMENT--01-ALP-FOR-8086/assets/118924713/99d70241-3dd5-4afc-b96a-9128ec12c042)
+
+
+## OR alp
+```
+name"OR"
+mov ax,0700h
+mov ds,ax
+mov cx,2968
+or cx,(102h)
+ret
+```
+## OUTPUT:
+![Screenshot 2024-02-26 140516](https://github.com/Rajeshanbu/EXPERIMENT--01-ALP-FOR-8086/assets/118924713/de15cc4b-ba09-42f4-8656-38c16fe536e6)
 
 
 ## Result :
- 
+ Thus a program on ALP for the fundamental arithmetic and 
+ logical operations is done successful.
 
 
 
